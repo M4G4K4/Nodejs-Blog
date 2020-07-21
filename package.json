@@ -1,0 +1,31 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.22.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "edge.js": "^1.1.4",
+    "express": "^4.17.1",
+    "express-edge": "^2.0.2",
+    "express-fileupload": "^1.1.7-alpha.4",
+    "express-session": "^1.17.1",
+    "express-sessions": "^1.0.6",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
